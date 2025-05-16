@@ -16,7 +16,7 @@ body {
 
 .dashboard {
   display: grid;
-  
+
   grid-template-columns: 1fr repeat(3, 1fr);
 
   grid-template-rows: repeat(2, minmax(200px, 1fr)); 
@@ -128,4 +128,3 @@ body {
   color: hsl(236, 100%, 87%);
   font-size: 0.85rem;
 }
-

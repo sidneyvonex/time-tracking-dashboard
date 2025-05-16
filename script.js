@@ -34,7 +34,7 @@ function renderCards(timeframe) {
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
-      <div class="card-header" style="background-color: ${bgColors[title]}; background-image: url('images/${formatFilename(title)}-icon.png');">
+      <div class="card-header" style="background-color: ${bgColors[title]}; background-image: url('images/${formatFilename(title)}-icon.svg');">
       </div>
       <div class="card-content">
         <h2>${title}<img src=\"images/ellipsis-icon.svg\" alt=\"Options\"></h2>
